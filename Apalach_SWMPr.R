@@ -5,7 +5,7 @@ windows(record=T); par(las=1)
 
 
 setwd("T:/lab-pine/AB_WQ/ApalachicolaSWMPr")
-install.packages("SWMPr")
+#install.packages("SWMPr")
 library(SWMPr)
 
 

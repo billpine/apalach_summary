@@ -9,7 +9,7 @@ station = '02358000'
 stinfo  = siteInfo(station)
 
 #read entire time series
-# dis   = importDVs(staid=station,code='00060',stat='00003', sdate= "1950-01-01")
+dis   = importDVs(staid=station,code='00060',stat='00003', sdate= "1950-01-01")
 
 # importDVs is slow when it needed to pull so much data. So here's some code to dynamically update
 # and store the data (TODO: write a wrapper function for it)

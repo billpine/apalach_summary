@@ -15,19 +15,19 @@ library(SWMPr)
 # "apaeswq" = East Bay surface station
 
 
-apa.cp = import_local("apalach_SWMPr_data_fromsite.zip", "apacpwq")
+apa.cp = import_local("apalach_SWMPr_data_fromsite_20211206.zip", "apacpwq")
 View(apa.cp)
-apa.db = import_local("apalach_SWMPr_data_fromsite.zip", "apadbwq")
+apa.db = import_local("apalach_SWMPr_data_fromsite_20211206.zip", "apadbwq")
 
-apa.eb = import_local("apalach_SWMPr_data_fromsite.zip", "apaebwq")
+apa.eb = import_local("apalach_SWMPr_data_fromsite_20211206.zip", "apaebwq")
 
-apa.es = import_local("apalach_SWMPr_data_fromsite.zip", "apaeswq")
+apa.es = import_local("apalach_SWMPr_data_fromsite_20211206.zip", "apaeswq")
 
 
-apa.cp.plots = plot_summary(apa.cp, param = 'sal', years = c(2005,2018))
-apa.db.plots = plot_summary(apa.db, param = 'sal', years = c(2005,2018))
-apa.eb.plots = plot_summary(apa.eb, param = 'sal', years = c(2005,2018))
-apa.es.plots = plot_summary(apa.es, param = 'sal', years = c(2005,2018))
+apa.cp.plots = plot_summary(apa.cp, param = 'sal', years = c(2010,2021))
+apa.db.plots = plot_summary(apa.db, param = 'sal', years = c(2010,2021))
+apa.eb.plots = plot_summary(apa.eb, param = 'sal', years = c(2010,2021))
+apa.es.plots = plot_summary(apa.es, param = 'sal', years = c(2010,2021))
 
 site_codes()
 

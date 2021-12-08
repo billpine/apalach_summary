@@ -4,7 +4,10 @@ if(exists(".SavedPlots",where=1)==T){rm(.SavedPlots,pos=1)}
 windows(record=T); par(las=1)
 
 
+#setwd("T:/lab-pine/AB_WQ/ApalachicolaSWMPr")
+
 setwd("T:/lab-pine/AB_WQ/ApalachicolaSWMPr")
+
 #install.packages("SWMPr")
 library(SWMPr)
 

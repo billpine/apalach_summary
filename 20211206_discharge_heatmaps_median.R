@@ -1,10 +1,10 @@
-
+##leitman likes this as median
 #SETUP
 rm(list=ls());
 library("waterData")
 library("hydroTSM")
 library("zoo")
-
+  
 
 #station to analyze
 station = '02358000'   
